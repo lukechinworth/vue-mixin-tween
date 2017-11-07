@@ -5,12 +5,15 @@ Vue mixin factory to tween component numerical data (using Tween.js).
 `npm install vue-mixin-tween`
 
 ## Usage
-To tween a vm prop `width`:
+To tween a component prop, e.g. `width`:
 
 ```
 import VueMixinTween from 'vue-mixin-tween';
 
 export default {
+    props: {
+        width: Number,
+    },
     mixins: [
         VueMixinTween('width'),
     ],
