@@ -1,0 +1,26 @@
+{
+  "name": "vue-mixin-tween",
+  "version": "0.0.0",
+  "description": "Vue mixin factory to tween component numerical data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukechinworth/vue-mixin-tween.git"
+  },
+  "keywords": [
+    "vue",
+    "mixin"
+  ],
+  "author": "Luke Chinworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukechinworth/vue-mixin-tween/issues"
+  },
+  "homepage": "https://github.com/lukechinworth/vue-mixin-tween#readme",
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.1.1"
+  }
+}
