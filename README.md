@@ -18,6 +18,7 @@ export default {
         VueMixinTween('width'),
     ],
     // this.widthTween now available in your component
+    // update width to new value, and widthTween will tween from the old to the new
 };
 ```
 
@@ -31,3 +32,6 @@ Duration of tween.
 
 #### `ease: Function = TWEEN.Easing.Quadratic.Out` (optional)
 Easing function to tween value with.
+
+## Contributing
+Please send a pull request if you'd like to improve the project.
